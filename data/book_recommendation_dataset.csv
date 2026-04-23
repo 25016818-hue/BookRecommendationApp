@@ -1,0 +1,201 @@
+bid,title,author,year_released,category,status,qty_available,qty_borrowed,total_qty,rating,rated_by
+1,The Enigma,Andrew Hodges,1990,Biography,available,8,2,10,4.3,8669
+2,Superintelligence,Nick Bostrom,1977,Science,available,9,1,10,4.9,9370
+3,The Republic,Plato,1988,Philosophy,issued,2,8,10,4.8,8293
+4,The Martian,Andy Weir,2015,Science Fiction,available,6,4,10,3.6,8332
+5,A Tale of Two Cities,Charles Dickens,2017,Historical Fiction,available,5,3,8,4.8,2575
+6,The Art of War (Deluxe Edition),Sun Tzu,2002,Philosophy,available,4,4,8,4.1,7351
+7,The Picture of Dorian Gray,Oscar Wilde,1957,Classic Fiction,available,7,0,7,3.6,2014
+8,The Stranger,Albert Camus,1978,Philosophy,issued,0,2,2,3.7,510
+9,Influence,Robert Cialdini,1982,Psychology,issued,1,5,6,3.5,7152
+10,Project Hail Mary,Andy Weir,2018,Science Fiction,issued,1,3,4,3.8,1589
+11,Critique of Pure Reason,Immanuel Kant,2005,Philosophy,available,3,1,4,4.2,278
+12,The Iliad,Homer,1987,Classics,issued,2,4,6,5.0,534
+13,"Guns, Germs, and Steel",Jared Diamond,2021,History,issued,1,5,6,4.3,3269
+14,Anna Karenina,Leo Tolstoy,1952,Classic Fiction,available,8,4,12,4.3,1961
+15,The Art of War,Sun Tzu,2003,Philosophy,available,1,1,2,4.4,5367
+16,Ikigai,Hector Garcia,1963,Personal Development,available,4,3,7,3.5,6527
+17,Educated,Tara Westover,1969,Biography,issued,0,5,5,3.6,6169
+18,Who Will Cry When You Die?,Robin Sharma,1982,Personal Development,available,3,0,3,4.4,2717
+19,Churchill: A Life,Martin Gilbert,2008,Biography,issued,0,8,8,4.4,1862
+20,Frankenstein,Mary Shelley,1970,Horror,issued,1,4,5,4.6,9413
+21,A Tale of Two Cities (Student Version),Charles Dickens,2004,Historical Fiction,issued,1,8,9,3.7,8429
+22,The Kite Runner,Khaled Hosseini,2015,Fiction,available,6,0,6,3.8,898
+23,The Fifth Discipline,Peter Senge,1963,Management,available,9,4,13,4.2,7150
+24,Breath,James Nestor,1961,Health,available,5,1,6,3.6,2336
+25,The Black Swan,Nassim Taleb,1958,Economics,available,12,4,16,4.2,5587
+26,The Emperor of All Maladies,Siddhartha Mukherjee,1999,Science,issued,0,7,7,3.7,8391
+27,The Enigma (Special Anniversary Ed.),Andrew Hodges,1957,Biography,available,5,0,5,4.0,7690
+28,History of Western Philosophy,Bertrand Russell,2000,History,available,2,3,5,3.5,9455
+29,1984 (75th Anniversary Ed.),George Orwell,2022,Fiction,available,11,3,14,4.7,4383
+30,The Lean Startup,Eric Ries,2001,Business,available,5,3,8,3.5,9681
+31,Project Hail Mary (Special Anniversary Ed.),Andy Weir,2016,Science Fiction,issued,1,5,6,4.9,2885
+32,Rich Dad Poor Dad,Robert T. Kiyosaki,2015,Business,issued,1,4,5,4.5,9144
+33,1984 (75th Anniversary Ed.) (Collector's Edition),George Orwell,2020,Fiction,available,8,4,12,4.2,5506
+34,Who Will Cry When You Die? (Hardcover Edition),Robin Sharma,1992,Personal Development,issued,2,7,9,4.5,1349
+35,Never Split the Difference,Chris Voss,1963,Business,available,7,0,7,3.6,9918
+36,Eat to Live,Joel Fuhrman,1981,Health,issued,1,1,2,4.3,936
+37,The Road,Cormac McCarthy,1963,Fiction,available,10,0,10,4.7,642
+38,Brave New World,Aldous Huxley,1965,Science Fiction,available,11,2,13,4.4,8952
+39,The Stranger (Hardcover Edition),Albert Camus,1987,Philosophy,available,6,0,6,4.1,1109
+40,Ethics,Baruch Spinoza,1954,Philosophy,available,8,1,9,4.1,3585
+41,The Brothers Karamazov,Fyodor Dostoevsky,2018,Classic Fiction,available,7,3,10,4.1,166
+42,Influence (Revised Edition),Robert Cialdini,1968,Psychology,available,8,0,8,3.5,9724
+43,The Odyssey,Homer,1986,Classics,issued,1,7,8,3.7,6116
+44,A Theory of Justice,John Rawls,1993,Law,issued,1,4,5,4.7,6075
+45,Astrophysics for People in a Hurry,Neil deGrasse Tyson,1972,Science,issued,1,7,8,4.1,3349
+46,City of Heavenly Fire,Cassandra Clare,1967,Fiction,available,2,3,5,3.9,6652
+47,The Book Thief,Markus Zusak,1975,Fiction,available,1,3,4,4.8,6890
+48,Catch-22,Joseph Heller,1966,Fiction,available,6,3,9,4.8,7032
+49,Pride and Prejudice,Jane Austen,2022,Classic Fiction,issued,0,7,7,4.3,5802
+50,The Handmaid's Tale,Margaret Atwood,1957,Fiction,available,8,0,8,3.6,4699
+51,Don Quixote,Miguel de Cervantes,2016,Classic Fiction,issued,2,1,3,4.8,3335
+52,Man's Search for Meaning,Viktor Frankl,1978,Psychology,available,4,2,6,4.4,2648
+53,The Picture of Dorian Gray (Revised Edition),Oscar Wilde,1980,Classic Fiction,issued,0,1,1,4.4,5653
+54,Cosmos,Carl Sagan,2013,Science,issued,1,5,6,4.5,2846
+55,Ulysses,James Joyce,1984,Classic Fiction,available,10,2,12,4.0,7494
+56,Midnight's Children,Salman Rushdie,2001,Fiction,issued,0,5,5,4.1,9687
+57,Beloved,Toni Morrison,1961,Fiction,issued,0,6,6,4.1,6315
+58,Frankenstein (Hardcover Edition),Mary Shelley,1997,Horror,available,8,4,12,4.5,2219
+59,The Alchemist,Paulo Coelho,1959,Fiction,issued,0,3,3,4.9,2612
+60,The Power of Habit,Charles Duhigg,1975,Personal Development,available,2,1,3,3.9,661
+61,A Tale of Two Cities (Collector's Edition),Charles Dickens,1960,Historical Fiction,issued,2,5,7,3.7,1310
+62,Love in the Time of Cholera,Gabriel Garcia Marquez,1998,Fiction,available,4,1,5,4.6,1476
+63,Freakonomics,Steven Levitt,1951,Economics,available,2,2,4,4.9,2981
+64,The Crusades,Thomas Asbridge,1956,History,issued,0,2,2,4.4,2034
+65,Anna Karenina (Student Version),Leo Tolstoy,1977,Classic Fiction,issued,2,2,4,4.7,1021
+66,The Alchemist (Student Version),Paulo Coelho,2015,Fiction,issued,2,8,10,4.1,3911
+67,Long Walk to Freedom,Nelson Mandela,2013,Autobiography,available,9,3,12,4.7,8041
+68,Influence (Hardcover Edition),Robert Cialdini,1971,Psychology,available,3,1,4,4.3,9006
+69,Moby Dick,Herman Melville,2006,Classic Fiction,issued,2,7,9,3.6,491
+70,Company of One,Paul Jarvis,2011,Business,available,10,4,14,4.0,4307
+71,To Kill a Mockingbird,Harper Lee,1998,Fiction,issued,1,8,9,4.2,8032
+72,Mark Twain's Autobiography,Mark Twain,1955,Autobiography,available,7,3,10,4.2,9884
+73,The Great Gatsby,F. Scott Fitzgerald,1967,Fiction,issued,2,1,3,4.4,4575
+74,Why We Sleep,Matthew Walker,1969,Health,available,12,1,13,4.5,2975
+75,Becoming,Michelle Obama,1952,Biography,available,3,4,7,5.0,7947
+76,The Stranger (Student Version),Albert Camus,2017,Philosophy,available,10,3,13,4.6,5394
+77,Eat to Live (Pocket Edition),Joel Fuhrman,2003,Health,issued,2,4,6,4.6,9666
+78,Midnight's Children (Collector's Edition),Salman Rushdie,1968,Fiction,available,12,0,12,4.3,313
+79,Harry Potter,J.K. Rowling,2000,Fantasy,available,9,3,12,4.8,2651
+80,Shoe Dog,Phil Knight,2022,Business,available,3,3,6,5.0,475
+81,Dracula,Bram Stoker,1983,Horror,issued,2,8,10,4.1,8909
+82,Inferno,Dante Alighieri,1963,Classics,issued,1,3,4,4.2,1925
+83,City of Heavenly Fire (Student Version),Cassandra Clare,2012,Fiction,available,1,4,5,4.5,2834
+84,Deep Work,Cal Newport,1984,Personal Development,available,8,1,9,4.2,6332
+85,The Kite Runner (Pocket Edition),Khaled Hosseini,1977,Fiction,available,10,0,10,4.8,6790
+86,Atomic Habits,James Clear,1957,Personal Development,available,6,2,8,3.9,5583
+87,Man's Search for Meaning (Pocket Edition),Viktor Frankl,1968,Psychology,available,2,0,2,3.5,3184
+88,Python For Beginners,John Shovic,1990,Education,issued,1,2,3,3.8,6490
+89,The Shining,Stephen King,1983,Horror,issued,1,3,4,3.9,1590
+90,Automate the Boring Stuff,Al Sweigart,1970,Education,available,9,0,9,4.9,3944
+91,The Odyssey (Student Version),Homer,1995,Classics,issued,1,7,8,4.1,3420
+92,The Catcher in the Rye,J.D. Salinger,1989,Fiction,available,2,0,2,4.6,4108
+93,Man's Search for Meaning (Revised Edition),Viktor Frankl,1970,Philosophy,issued,0,2,2,4.9,325
+94,Automate the Boring Stuff (Special Anniversary Ed.),Al Sweigart,2006,Education,issued,2,8,10,3.7,1757
+95,The Art of War (Revised Edition),Sun Tzu,2018,Philosophy,available,8,3,11,4.3,4819
+96,Foundation,Isaac Asimov,1989,Science Fiction,available,2,0,2,5.0,8353
+97,Life 3.0,Max Tegmark,2001,Science,available,6,4,10,4.6,4276
+98,Lolita,Vladimir Nabokov,1982,Classic Fiction,issued,2,8,10,4.3,5910
+99,Alexander Hamilton,Ron Chernow,1990,Biography,issued,1,3,4,4.3,6713
+100,Ulysses (Hardcover Edition),James Joyce,1957,Classic Fiction,available,8,1,9,4.9,306
+101,Astrophysics for People in a Hurry (Student Version),Neil deGrasse Tyson,2014,Science,issued,2,2,4,5.0,3655
+102,The Gene,Siddhartha Mukherjee,1983,Science,issued,1,7,8,4.9,2685
+103,The Brothers Karamazov (Pocket Edition),Fyodor Dostoevsky,2020,Classic Fiction,available,11,0,11,3.5,5751
+104,"Thinking, Fast and Slow",Daniel Kahneman,1999,Economics,issued,1,3,4,4.9,754
+105,The Road (Collector's Edition),Cormac McCarthy,1993,Fiction,issued,2,5,7,4.2,8029
+106,Snow Crash,Neal Stephenson,2007,Science Fiction,available,6,4,10,4.5,2281
+107,Blink,Malcolm Gladwell,2019,Social Science,issued,0,5,5,5.0,691
+108,Inferno (Student Version),Dante Alighieri,2005,Classics,issued,2,5,7,3.9,6543
+109,Being and Time,Martin Heidegger,1979,Philosophy,issued,1,4,5,4.0,7248
+110,Catch-22 (Collector's Edition),Joseph Heller,1989,Fiction,issued,2,2,4,4.7,3361
+111,A World Lit Only by Fire,William Manchester,1966,History,available,2,2,4,3.8,7798
+112,The Alchemist (Revised Edition),Paulo Coelho,1971,Fiction,available,7,2,9,4.9,6598
+113,Pride and Prejudice (Pocket Edition),Jane Austen,1954,Classic Fiction,available,3,3,6,3.6,4406
+114,The Shining (Pocket Edition),Stephen King,2002,Horror,available,1,1,2,3.9,6321
+115,The Great Gatsby (Collector's Edition),F. Scott Fitzgerald,2018,Fiction,issued,0,4,4,4.2,7222
+116,Moby Dick (Revised Edition),Herman Melville,2013,Classic Fiction,available,12,2,14,3.7,5535
+117,Astrophysics for People in a Hurry (Hardcover Edition),Neil deGrasse Tyson,1957,Science,issued,1,4,5,4.2,8102
+118,Mein Kampf,Adolf Hitler,2010,Autobiography,available,2,3,5,3.8,2119
+119,Dune,Frank Herbert,1973,Science Fiction,available,10,4,14,3.8,7784
+120,Thinking with Type,Ellen Lupton,1955,Arts,available,3,1,4,4.9,1869
+121,Company of One (Special Anniversary Ed.),Paul Jarvis,2004,Business,available,11,4,15,4.8,7829
+122,One Hundred Years of Solitude,Gabriel Garcia Marquez,1972,Fiction,available,6,0,6,4.1,8837
+123,The Crusades (Collector's Edition),Thomas Asbridge,2008,History,issued,0,7,7,4.3,2158
+124,The Fifth Discipline (Collector's Edition),Peter Senge,1951,Management,available,9,3,12,4.5,2132
+125,The Selfish Gene,Richard Dawkins,2006,Science,issued,0,2,2,3.8,3435
+126,The God of Small Things,Arundhati Roy,1959,Fiction,issued,1,5,6,4.4,7387
+127,Life of Pi,Yann Martel,1957,Fiction,issued,0,6,6,4.7,5044
+128,The Black Swan (Hardcover Edition),Nassim Taleb,1983,Economics,issued,1,7,8,4.3,3304
+129,Man's Search for Meaning (Collector's Edition),Viktor Frankl,2011,Philosophy,available,3,1,4,4.0,4449
+130,Frankenstein (Student Version),Mary Shelley,1951,Horror,available,9,3,12,4.5,6657
+131,The E-Myth Revisited,Michael Gerber,1999,Business,available,6,0,6,4.4,2644
+132,Snow Crash (Special Anniversary Ed.),Neal Stephenson,1983,Science Fiction,available,4,4,8,3.6,7111
+133,Breath (Special Anniversary Ed.),James Nestor,1978,Health,available,10,4,14,4.2,2649
+134,Being and Time (Hardcover Edition),Martin Heidegger,1952,Philosophy,issued,1,1,2,3.8,635
+135,The Gene (Hardcover Edition),Siddhartha Mukherjee,2009,Science,issued,1,1,2,4.5,9519
+136,Tipping Point,Malcolm Gladwell,1971,Social Science,available,6,4,10,4.5,7644
+137,Mark Twain's Autobiography (Pocket Edition),Mark Twain,2000,Autobiography,available,5,1,6,4.1,303
+138,Tipping Point (Pocket Edition),Malcolm Gladwell,2009,Social Science,issued,1,1,2,4.7,522
+139,One Hundred Years of Solitude (Student Version),Gabriel Garcia Marquez,2013,Fiction,issued,1,3,4,4.4,3711
+140,The 4-Hour Workweek,Tim Ferriss,1975,Business,issued,2,4,6,4.7,1660
+141,Wings Of Fire,APJ Abdul Kalam,1967,Autobiography,issued,1,2,3,4.2,9294
+142,The Kite Runner (Vol. 3),Khaled Hosseini,1984,Fiction,issued,2,1,3,5.0,8900
+143,Automate the Boring Stuff (Collector's Edition),Al Sweigart,1968,Education,available,10,2,12,4.1,3275
+144,Think and Grow Rich,Napoleon Hill,1980,Economics,available,10,1,11,4.0,5517
+145,Cosmos (Revised Edition),Carl Sagan,1955,Science,available,6,4,10,4.6,8940
+146,Les Misérables,Victor Hugo,1997,Historical Fiction,available,1,0,1,4.7,7938
+147,Slaughterhouse-Five,Kurt Vonnegut,2017,Fiction,available,1,3,4,4.4,6928
+148,Beloved (Student Version),Toni Morrison,1975,Fiction,issued,1,6,7,4.7,8075
+149,City of Heavenly Fire (Collector's Edition),Cassandra Clare,2011,Fiction,available,2,2,4,4.6,7500
+150,Emma,Jane Austen,1958,Classic Fiction,available,5,4,9,4.8,8608
+151,A Beautiful Mind,Sylvia Nasar,1966,Biography,available,4,2,6,3.5,1647
+152,Long Walk to Freedom (Collector's Edition),Nelson Mandela,1988,Autobiography,available,5,0,5,4.4,9611
+153,The Hobbit,J.R.R. Tolkien,1966,Fantasy,available,5,1,6,4.4,9821
+154,Why We Sleep (Hardcover Edition),Matthew Walker,1986,Health,available,10,4,14,4.8,684
+155,The Photographer's Eye,Michael Freeman,1984,Photography,issued,2,7,9,4.9,280
+156,The Photographer's Eye (Revised Edition),Michael Freeman,1961,Photography,available,10,3,13,4.7,6404
+157,The Lord of the Rings,J.R.R. Tolkien,1957,Fantasy,available,2,2,4,4.2,7202
+158,The Enigma (Student Version),Andrew Hodges,2009,Biography,issued,2,2,4,4.2,2583
+159,1984 (75th Anniversary Ed.) (Vol. 3),George Orwell,1999,Fiction,issued,0,7,7,4.9,2593
+160,Good to Great,Jim Collins,1993,Management,issued,0,1,1,4.2,541
+161,Ethics (Pocket Edition),Baruch Spinoza,1951,Philosophy,issued,0,4,4,4.3,9384
+162,A Thousand Splendid Suns,Khaled Hosseini,1982,Fiction,issued,1,4,5,4.3,3941
+163,Never Split the Difference (Revised Edition),Chris Voss,2009,Business,available,10,4,14,4.6,3560
+164,Slaughterhouse-Five (Special Anniversary Ed.),Kurt Vonnegut,2005,Fiction,available,5,1,6,4.9,2338
+165,The Gene (Pocket Edition),Siddhartha Mukherjee,1957,Science,available,7,2,9,4.5,6788
+166,"Guns, Germs, and Steel (Revised Edition)",Jared Diamond,2015,History,available,11,0,11,4.3,4994
+167,Ulysses (Revised Edition),James Joyce,1969,Classic Fiction,issued,0,5,5,4.4,9847
+168,Pre-Suasion,Robert Cialdini,2014,Psychology,issued,0,8,8,4.6,4640
+169,My Experiments with Truth,Mahatma Gandhi,1994,Autobiography,issued,1,7,8,4.9,4725
+170,A Brief History of Time,Stephen Hawking,2007,Science,issued,0,8,8,4.6,6661
+171,Rich Dad Poor Dad (Hardcover Edition),Robert T. Kiyosaki,2006,Business,available,12,2,14,4.9,7743
+172,The Republic (Annotated),Plato,2015,Philosophy,available,8,0,8,4.0,5848
+173,Foundation (Collector's Edition),Isaac Asimov,1966,Science Fiction,issued,2,2,4,3.9,8462
+174,The Lord of the Rings (Collector's Edition),J.R.R. Tolkien,2017,Fantasy,issued,1,6,7,5.0,9053
+175,The Power of Habit (Pocket Edition),Charles Duhigg,1990,Personal Development,issued,0,1,1,4.8,3088
+176,Don Quixote (Student Version),Miguel de Cervantes,2013,Classic Fiction,issued,0,4,4,3.8,458
+177,Crime and Punishment,Fyodor Dostoevsky,2001,Philosophy,issued,0,4,4,4.4,9975
+178,Outliers,Malcolm Gladwell,1998,Social Science,available,11,2,13,4.7,1682
+179,History of Western Philosophy (Hardcover Edition),Bertrand Russell,2016,History,issued,0,2,2,3.7,6528
+180,Ready Player One,Ernest Cline,1964,Science Fiction,available,8,2,10,4.4,7491
+181,A Theory of Justice (Collector's Edition),John Rawls,2018,Law,available,8,1,9,4.4,9528
+182,The Lord of the Rings (Pocket Edition),J.R.R. Tolkien,1977,Fantasy,issued,0,7,7,4.7,4589
+183,Think and Grow Rich (Hardcover Edition),Napoleon Hill,2015,Economics,issued,2,2,4,4.9,6984
+184,The Lean Startup (Pocket Edition),Eric Ries,1980,Business,issued,2,5,7,3.9,7816
+185,Atomic Habits (Student Version),James Clear,2011,Personal Development,issued,2,7,9,4.5,763
+186,Lolita (Student Version),Vladimir Nabokov,1962,Classic Fiction,available,5,1,6,4.8,5471
+187,Sapiens,Yuval Noah Harari,1971,History,issued,0,2,2,4.5,4280
+188,Les Misérables (Pocket Edition),Victor Hugo,2018,Historical Fiction,issued,2,3,5,4.7,8956
+189,Neuromancer,William Gibson,1992,Science Fiction,issued,0,8,8,3.6,3424
+190,Becoming (Special Anniversary Ed.),Michelle Obama,2013,Biography,issued,1,7,8,4.3,5113
+191,The 7 Habits of Highly Effective People,Stephen Covey,1977,Personal Development,issued,2,2,4,4.9,8208
+192,Freakonomics (Pocket Edition),Steven Levitt,1968,Economics,issued,2,4,6,3.9,5526
+193,Zero to One,Peter Thiel,2016,Business,available,5,0,5,4.6,251
+194,The Hobbit (Pocket Edition),J.R.R. Tolkien,1983,Fantasy,issued,1,1,2,4.7,6978
+195,To Kill a Mockingbird (Student Version),Harper Lee,1953,Fiction,available,5,2,7,4.0,6670
+196,Deep Work (Revised Edition),Cal Newport,1985,Personal Development,issued,1,7,8,3.8,9617
+197,Eat to Live (Vol. 3),Joel Fuhrman,1956,Health,issued,1,1,2,4.7,1687
+198,The Great Gatsby (Hardcover Edition),F. Scott Fitzgerald,2014,Fiction,issued,1,2,3,3.6,9005
+199,The Diary of a Young Girl,Anne Frank,1954,Autobiography,available,8,3,11,4.3,9152
+200,Ikigai (Special Anniversary Ed.),Hector Garcia,2019,Personal Development,available,3,4,7,3.7,6434
