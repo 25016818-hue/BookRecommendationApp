@@ -139,6 +139,5 @@ class Recommender():
 
 
 if __name__ == "__main__":
-    rrrrr = User()
-    print(rrrrr.email)
+    pass
     
