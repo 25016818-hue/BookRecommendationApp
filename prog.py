@@ -14,15 +14,10 @@ df = pd.read_csv('book_recommendation_dataset.csv')
 # This class will handle taking the username and information
 class User:
     def __init__(self):
-        self.username = username = input("Please enter your Name: " )
-        self.email = email = input("Please enter your E-mail: " )
-        self.contact = contact = input("Please enter your contact: " )
-
+        self.username = input("Please enter your Name: " )
+        self.email = input("Please enter your E-mail: " )
+        self.contact = input("Please enter your contact: " )
         return
-""" 
-rrrrr = User()
-print(rrrrr.email)
-"""
 
 
 #  This class will handle collecting of preferences for the user 
@@ -121,17 +116,67 @@ class Preferences:
     
 
 # This class will make recommendation based on the users preferences
-class Recommender():
+class Recommender:
+    def __init__(self, dataframe):
+        self.df = dataframe
+        self.recommendations = pd.DataFrame()
 
-    def __init__(self, ):
-        pass
+    def recommend_books(self, preferences):
 
-    pass
+        filtered_df = self.df.copy()
 
+        #filter authors
+        filtered_df = filtered_df[
+            filtered_df['author'].isin(preferences.author)
+            ]
+        
+        #filter categories
+        filtered_df = filtered_df[
+            filtered_df['category'].isin(preferences.category)
+        ]
 
+        # filter ratings
+        filtered_df = filtered_df[
+            filtered_df['rating'] >= float(preferences.rating)
+        ]
 
+        #sort hightest rating first
+        filtered_df = filtered_df.sort_values(
+            by='rating', ascending=False
+            )
+        
+        self.recommendations = filtered_df
 
+        def display_recommendations(self):
 
+            print("\n----------------- RECOMMENDED BOOKS -----------------")
+            if self.recommendations.empty:
+                print("No recommendations found based on your preferences.")
+                return
+            
+            for _, row in self.recommendations.iterrows():
+                print(f"Title: {row['title']}, Author: {row['author']}, Category: {row['category']}, Rating: {row['rating']}")
+
+        def save_to_text_file(self, user, preferences):
+            filename = f"{user.username}_recommendations.txt"
+            with open(filename, 'w', encoding = "utf-8") as file:
+                file.write(f"User: {user.username}\n")
+                file.write(f"Email: {user.email}\n")
+                file.write(f"Contact: {user.contact}\n\n")
+                
+                file.write("----------------- USER PREFERENCES -----------------\n")
+                file.write(f"Authors: {', '.join(preferences.author)}\n")
+                file.write(f"Categories: {', '.join(preferences.category)}\n")
+                file.write(f"Rating: {preferences.rating}\n\n")
+
+                file.write("----------------- RECOMMENDED BOOKS -----------------\n")
+                if self.recommendations.empty:
+                    file.write("No recommendations found based on your preferences.\n")
+                else:
+                    for _, row in self.recommendations.iterrows():
+                        file.write(f"Title: {row['title']}, Author: {row['author']}, Category: {row['category']}, Rating: {row['rating']}\n")
+
+            print(f"\nRecommendations saved to {filename}")
 
 
 
@@ -139,5 +184,12 @@ class Recommender():
 
 
 if __name__ == "__main__":
-    pass
+    preferences = Preferences()
+    preferences.collect_preferences()
+    preferences.display_preferences()
+
+
+
+    recommender = Recommender(df)
+    recommender.recommend_books(preferences)
     
