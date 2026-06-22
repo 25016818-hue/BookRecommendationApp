@@ -192,4 +192,3 @@ if __name__ == "__main__":
 
     recommender = Recommender(df)
     recommender.recommend_books(preferences)
-    
