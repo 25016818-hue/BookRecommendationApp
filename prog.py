@@ -187,6 +187,7 @@ if __name__ == "__main__":
     preferences = Preferences()
     preferences.collect_preferences()
     preferences.display_preferences()
+    
 
 
 
