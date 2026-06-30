@@ -188,8 +188,11 @@ if __name__ == "__main__":
     preferences.collect_preferences()
     preferences.display_preferences()
     
-
-
-
     recommender = Recommender(df)
     recommender.recommend_books(preferences)
+
+    recommender.display_recommendations()
+
+    recommender.save_to_text_file(User(), preferences)  
+
+    print("\nThank you for using the Book Recommendation System!")
