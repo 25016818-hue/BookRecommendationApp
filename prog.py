@@ -147,36 +147,35 @@ class Recommender:
         
         self.recommendations = filtered_df
 
-        def display_recommendations(self):
+    def display_recommendations(self):
+        print("\n----------------- RECOMMENDED BOOKS -----------------")
+        if self.recommendations.empty:
+            print("No recommendations found based on your preferences.")
+            return
+        
+        for _, row in self.recommendations.iterrows():
+            print(f"Title: {row['title']}, Author: {row['author']}, Category: {row['category']}, Rating: {row['rating']}")
 
-            print("\n----------------- RECOMMENDED BOOKS -----------------")
-            if self.recommendations.empty:
-                print("No recommendations found based on your preferences.")
-                return
+    def save_to_text_file(self, user, preferences):
+        filename = f"{user.username}_recommendations.txt"
+        with open(filename, 'w', encoding = "utf-8") as file:
+            file.write(f"User: {user.username}\n")
+            file.write(f"Email: {user.email}\n")
+            file.write(f"Contact: {user.contact}\n\n")
             
-            for _, row in self.recommendations.iterrows():
-                print(f"Title: {row['title']}, Author: {row['author']}, Category: {row['category']}, Rating: {row['rating']}")
+            file.write("----------------- USER PREFERENCES -----------------\n")
+            file.write(f"Authors: {', '.join(preferences.author)}\n")
+            file.write(f"Categories: {', '.join(preferences.category)}\n")
+            file.write(f"Rating: {preferences.rating}\n\n")
 
-        def save_to_text_file(self, user, preferences):
-            filename = f"{user.username}_recommendations.txt"
-            with open(filename, 'w', encoding = "utf-8") as file:
-                file.write(f"User: {user.username}\n")
-                file.write(f"Email: {user.email}\n")
-                file.write(f"Contact: {user.contact}\n\n")
-                
-                file.write("----------------- USER PREFERENCES -----------------\n")
-                file.write(f"Authors: {', '.join(preferences.author)}\n")
-                file.write(f"Categories: {', '.join(preferences.category)}\n")
-                file.write(f"Rating: {preferences.rating}\n\n")
+            file.write("----------------- RECOMMENDED BOOKS -----------------\n")
+            if self.recommendations.empty:
+                file.write("No recommendations found based on your preferences.\n")
+            else:
+                for _, row in self.recommendations.iterrows():
+                    file.write(f"Title: {row['title']}, Author: {row['author']}, Category: {row['category']}, Rating: {row['rating']}\n")
 
-                file.write("----------------- RECOMMENDED BOOKS -----------------\n")
-                if self.recommendations.empty:
-                    file.write("No recommendations found based on your preferences.\n")
-                else:
-                    for _, row in self.recommendations.iterrows():
-                        file.write(f"Title: {row['title']}, Author: {row['author']}, Category: {row['category']}, Rating: {row['rating']}\n")
-
-            print(f"\nRecommendations saved to {filename}")
+        print(f"\nRecommendations saved to {filename}")
 
 
 
